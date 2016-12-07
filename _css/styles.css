@@ -1,12 +1,11 @@
 html, body {
-	background: #006655;	margin: 0;
+	background-image: url("_images/Background1.jpg");
+	background-repeat: repeat;
 }
-h1, h2, h3, h4, h5, h6, p {
+h2, h3, h4, h5, h6, p {
 	margin: 0;
 	padding: 0;
-}
-h1, h2, h3, h4, h5, h6 {
-	color: rgb(107, 107, 132);
+		color: rgb(102, 192, 199)
 }
 body {
 	font-family: Verdana, Geneva, sans-serif;
@@ -15,23 +14,29 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 2.5% 2.5% 0;
-	background: white;
-	line-height: 1.8;
+	background-image: url("_images/BodyBackgroundText.jpg");
+	background-repeat: repeat;
 }
 h1 {
 	font: 1.6em Verdana, Geneva, sans-serif;
 	margin-bottom: .4em;
-	color: rgb(83, 104, 138);
+	color: #FF2A00;
+	float:left;
+	font-size: 34px;
 }
 h2 {
 	font: 3.2em Georgia, "Times New Roman", Times, serif;
 	margin-bottom: .2em;
+		padding-bottom: .2em;
+	border-bottom: 1px solid gray;
 }
 h3 {
 	font-size: 1.2em;
 }
 p {
 	margin-bottom: 1em;
+	color: #AAAAAA;
+	font-size: 43px
 }
 a {
 	color: rgb(184, 126, 84);
@@ -51,10 +56,10 @@ pre {
 	word-wrap: break-word;
 	width: 80%;
 }
-pre.wrong {
+.wrong {
 	border-left-color: red;
 }
-pre.correct {
+.correct {
 	border-left-color: green;
 }
 dt {
@@ -79,17 +84,13 @@ td, th {
 .center {
 	text-align: center;
 }
-header h2 {
-	padding-bottom: .2em;
-	border-bottom: 1px solid gray;
-}
 aside {
 	padding: 1em;
 	background:rgb(83, 104, 138);
 	color: white;
 	margin-bottom: 1em;
 }
-aside h4 {
+.h4 {
 	color: white;
 }
 footer {
@@ -110,7 +111,6 @@ blockquote {
 	float: left;
 	margin-right: 10px;
 }
-/*tab styles*/
 aside.languages {
 	font: .8em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background:#2e2e2e;
@@ -121,24 +121,12 @@ aside.languages {
 	margin-left: 1em;
 }
 
-.languages h3 {
-	font-weight: normal;
-	color: white;
-	font-size: 1.6em;
-	margin-bottom:.5em;
-}
-
-#tabContainer h4 {
-	color: rgb(83, 104, 138);
-	font-size: 2em;
-}
-
 #tabs{
 	height:30px;
 	overflow:hidden;
 }
 
-#tabs > ul{
+#tabs >nav{
 	font: 1em;
 	list-style:none;
 }
@@ -164,7 +152,7 @@ aside.languages {
 }
 
 #tabs > ul > .active{
-	background: white; /* old browsers */
+	background: white;
 	cursor:pointer;
 }
 
@@ -179,21 +167,13 @@ aside.languages {
 	color: black;
 }
 
-header h1 {
-	float:left;
-}
-
-header h2 {
-	text-align:center;
-}
-
 #nav {
 width: 100%;
 float: left;
-margin: 0 0 3em 0;
-padding: 0;
+margin: 0 0 3px 0;
+padding: 2px;
 list-style: none;
-background-color: #f2f2f2;
+background-color: #C0C0CF;
 border-bottom: 1px solid #ccc; 
 border-top: 1px solid #ccc; }
 #nav li {
@@ -203,8 +183,17 @@ display: block;
 padding: 8px 15px;
 text-decoration: none;
 font-weight: bold;
-color: #006655;
+color: #0062A0;
 border-right: 1px solid #ccc; }
 #nav li a:hover {
 color: white;
-background-color: #005555; }
+background-image: url("_images/WebsitePic.jpg");
+background-repeat: repeat;
+}
+#interaction {
+	color: #FF0000;
+}
+ul{
+	color: #AAAAAA;
+	font-size: 25px;
+}
