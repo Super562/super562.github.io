@@ -35,7 +35,7 @@ h3 {
 }
 p {
 	margin-bottom: 1em;
-	color: #AAAAAA;
+	color: #FFFFFF;
 	font-size: 43px
 }
 a {
@@ -194,6 +194,9 @@ background-repeat: repeat;
 	color: #FF0000;
 }
 ul{
-	color: #AAAAAA;
+	color: #FFFFFF;
 	font-size: 25px;
+}
+progress{
+	color: #FF0000;
 }
